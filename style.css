@@ -1,0 +1,126 @@
+
+@font-face {
+  font-family: "Calypso";
+  src: url(./fonts/Calypso.ttf);
+}
+body, html {
+  font-family: "Calypso";
+
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container {
+  position: fixed;left: 0;top: 0;z-index: 999;
+  width: 300px;
+  height: 100%;
+}
+
+.nav-button {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 40px;
+  z-index: 50;
+  cursor: pointer;
+}
+.nav-button .lines {
+  height: 7px;
+  width: inherit;border: 2px solid #000;
+  background:goldenrod;
+  margin-bottom: 5px;
+  border-radius: 500px;
+  transition: all 0.5s;
+}
+
+.animation-container {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+
+.text-container {
+  position: absolute;
+  left: 30%;
+  top: 200px;
+  z-index: 100;
+}
+
+.text-container ul {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.text-container li {
+  padding-top: 15px;
+  font-family: "Calypso";
+  font-size: 25px;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s linear;
+}
+
+.text-container a {
+  text-decoration: none;
+  color: #454545;
+}
+
+.nav-right-piece {
+  background:goldenrod;
+  width: inherit;
+  height: 10px;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+
+.nav-left-piece {
+  background:goldenrod;
+  width: inherit;
+  height: 10px;
+  opacity: 0;
+  transform: rotate(45deg);
+}
+
+.animate-nav-piece {
+  animation-name: rotate-nav;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.animate-nav-li {
+  animation-name: slidein-li;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes slidein-li {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-nav {
+  to {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+/****To used you don't need anything beyond this code****/
+.body-container {
+  font-family: arial;
+  font-size: 30px;
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+.body-container p, .body-container a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.body-container a {
+  color: #FF2245;
+}
