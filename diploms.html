@@ -284,7 +284,18 @@
 </section> <!-- #section-photos -->
 
 </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<!-- And put your own code after - any GSAP code you write needs to have access to the library -->
+<script src="myCustomCode.js"></script>
+<script>
+  
+gsap.from(".block9",{y:-159, duration:3,easy:"back", });
+gsap.from(".block5",{scale:0.8, duration:4,easy:"back",opacity:0.61});
+gsap.from(".block7",{x:-800,duration:3,easy:"back",opacity:0});
+gsap.from(".block8",{x:800,duration:5,easy:"back",opacity:0});
 
+gsap.from(".block16",{y:159, duration:3,easy:"back",opacity:1});
+</script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
 
 <script src="js/jquery-3.3.1.min.js"></script>
