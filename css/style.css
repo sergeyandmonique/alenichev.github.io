@@ -57,7 +57,7 @@ grid-template-rows:auto;}
 .about1{width: 70%;margin: auto;}
  @media (max-width:768px){
   body{width: 100%;overflow-x: hidden;}
- header{width: 100%;height: 25vw;} .main{position: relative;
+ header{width: 100%;height: 3vw;} .main{position: relative;
   width: 100%;
 height: 492vw;
 display: grid;
@@ -68,18 +68,22 @@ grid-template-rows:auto;}
 .g1{display: none;}
 .g2{position: relative;
       width: 100%;
-      height: 177vw;
+      height: 137vw;
     display: grid;
   grid-template-columns: 1fr;
  grid-template-rows: auto;}
+ .g2 section {margin: 0;padding: 0 ;margin-top: -5vw;}
 .g3{background-color: 	#191a1a;position: relative;z-index: 99999;}
-.g1 .img img{width: 100%;}
-     .text-block{text-align: center; position: relative;width:100%; height:70vw;overflow: hidden;margin: 12vw 0 0 0;}
+.g1 .img img{width: 80%;}
+     .text-block{text-align: center; position: relative;width:100%; height:70vw;overflow: hidden;margin: 0;}
       .text-block .block4{ position:relative;font-size:46px;color: rgb(246, 246, 246); text-align: center;}
       .text-block  .block6{position:relative;font-size:46px;color: rgb(246, 246, 246); text-align: center;}
       .text-block  .block5{position:relative;font-size:20px}
     /* .img{width: 100%;height:90vw;position: relative;background-color: red;display: block;margin-bottom: 35vw;overflow: hidden;}
 .img img{width: 90%;} */
+.title-2 img{width: 90%;background-color: goldenrod;padding: 0 10px;}
+.title-2{position: fixed;top:0.5%;right:0;font-size:16px;color: goldenrod;width: 160px;z-index: 999;}
+.title-2 .t5{font-size:16px;color: goldenrod; margin-top: 13px;}
 
   .text-block .block8{margin: auto;}
 .about{position: relative;padding: 25px;}
