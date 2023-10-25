@@ -54,6 +54,8 @@ hr{width: 35%;margin: auto; height: 4px;background-color: goldenrod;border: none
 .text-about{width: 45%;}
 .about1{width: 70%;margin: auto;}
 .container1{width: 70%;margin-left:20%}
+.ordertext{margin:5vw auto 0;color: bisque;font-size: 22px;width: 100%;height: 100%;text-align: center;}
+.years{color:goldenrod;font-size: 35px;text-align: center;}
  @media (max-width:768px){
   body{width: 100%;overflow-x: hidden;}
  header{width: 100%;height: 3vw;} .main{position: relative;
@@ -65,7 +67,7 @@ grid-template-areas: "g1"
 grid-template-columns:  auto;
 grid-template-rows:auto;}
 .g1{display: none;}
-.container1{width:100%}
+.container1{width:100%; margin: 0;}
 
 .g2{position: relative;
       width: 100%;
