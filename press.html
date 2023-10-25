@@ -28,61 +28,75 @@
   <body >
   
 
+    <header>
+      <!-- partial:index.partial.html -->
+      <div class="nav-container">
+        <div class="nav-button">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </div>
+        <div class="animation-container">
+          
+        </div>
+         <div class="text-container">
+          <ul>
+            <li ><a  href="index.html"> Главная</a></li>
+            <li ><a href="about.html" >О себе</a> </li>
+            <li ><a  href="press.html">Пресса</a></li>
+         
+          <li ><a  href="recom.html">Рекомендации</a></li>
+          <li ><a  href="diploms.html">Награды</a></li>
+          
+          <li ><a  href="contacts.html">Контакты</a>          </li>
+      
+          </ul>
+        </div>
+      </div>
+      <div class="title-2"><img src="./images/logo2.png" alt="">
+        <h2 class="t5">Официальный сайт</h2>
+      </div>
+      
+      
+      </header>
+  <main class="main">
+    <div class="g2">
 
-<!-- partial:index.partial.html -->
-<div class="nav-container">
-  <div class="nav-button">
-    <div class="lines"></div>
-    <div class="lines"></div>
-    <div class="lines"></div>
-  </div>
-  <div class="animation-container">
+      <section >
+        <div class="img-main " ><img src="images/99.jpg" width="100%" alt=""></div>
+      </section>
     
-  </div>
-   <div class="text-container">
-    <ul>
-      <li ><a  href="index.html"> Главная</a></li>
-      <li ><a href="about.html" >О себе</a> </li>
-      <li ><a  href="press.html">Пресса</a></li>
-   
-    <li ><a  href="recom.html">Рекомендации</a></li>
-    <li ><a  href="diploms.html">Награды</a></li>
+    <section >
     
-    <li ><a  href="contacts.html">Контакты</a>          </li>
+       
+      <div class="text-block">
+        <h1 class="block9">Владимир АЛЕНИЧЕВ</h1>
+         <div class="block7"></div>
+          <h2 class=" block16" >Пресса </h1>
 
-    </ul>
-  </div>
 </div>
 
-  <main class="main">
+        
+         
+    </section>
+    
+    </div>
 
-    <h2 class="title-1">Официальный сайт</h2>
-    <div class="title-2"><img src="./images/logo2.png" alt=""></div>
-    
-    <section class="site-section-hero " id="section-home">
-    
-          <div class="row justify-content-center align-items-center">
-            <div class="col-md-8 text-bar">
-                     <div class="img " ><img src="images/99.jpg" width="100%" alt=""> </div>
+    <section class="g1">
                     <div class="text-block">
                               <h1 class="block9">Владимир АЛЕНИЧЕВ</h1>
                                <div class="block7"></div>
                                 <h2 class=" block16" >Пресса </h1>
                       
                      </div>
-             </div>
-          </div>
-  
-       </section>
-
-    <section class="site-section-hero " style="background: url('images/94.jpg') no-repeat center top;background-size: 100%;"  data-stellar-background-ratio="0.5" id="section-home">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-8 text-left">
-          <h1 class=" heading text-uppercase" data-aos="fade-up">ПРЕССА</h1>
-        </div>
-      </div>
-  
-      <div class="row b-1 justify-content-center align-items-center">
+           
+     
+        <div class="img-main " ><img src="images/96.jpg" width="100%" alt=""></div>
+      </section>
+      
+    <section class="g3">
+      <div class="container">
+              <div class="row b-1">
         
   
     
@@ -233,6 +247,7 @@
        
         
     </div>
+    </div>
       </section> <!-- #section-photos -->
 
   </main>
@@ -243,7 +258,7 @@
     
   gsap.from(".block9",{y:-159, duration:3,easy:"back", });
   gsap.from(".block5",{scale:0.8, duration:4,easy:"back",opacity:0.61});
-  gsap.from(".block7",{x:-800,duration:3,easy:"back",opacity:0});
+  gsap.from(".block7",{width:0,duration:3,easy:"back",opacity:0});
   gsap.from(".block8",{x:800,duration:5,easy:"back",opacity:0});
  
   gsap.from(".block16",{y:159, duration:3,easy:"back",opacity:1});
