@@ -45,16 +45,15 @@ grid-template-rows:auto;}
 .title-2 img{width: 90%;background-color: goldenrod;}
 .title-2 .t5{font-size:16px;color: goldenrod; margin-top: 13px;}
 
-
+hr{width: 35%;margin: auto; height: 4px;background-color: goldenrod;border: none;opacity: 1;}
 
 .g2{display: none;}
 .b-2{background-color: #0b0b0b;}
  .h2{color: goldenrod;font-size:55px;}
  .display-6{color: goldenrod;}
- .img{width: 100%;height: 100%;display: none;}
- hr{background-color: goldenrod;height: 5px;width: 19vw;}
 .text-about{width: 45%;}
 .about1{width: 70%;margin: auto;}
+.container1{width: 70%;margin-left:20%}
  @media (max-width:768px){
   body{width: 100%;overflow-x: hidden;}
  header{width: 100%;height: 3vw;} .main{position: relative;
@@ -66,6 +65,8 @@ grid-template-areas: "g1"
 grid-template-columns:  auto;
 grid-template-rows:auto;}
 .g1{display: none;}
+.container1{width:100%}
+
 .g2{position: relative;
       width: 100%;
       height: 137vw;
@@ -73,7 +74,7 @@ grid-template-rows:auto;}
   grid-template-columns: 1fr;
  grid-template-rows: auto;}
  .g2 section {margin: 0;padding: 0 ;margin-top: -5vw;}
-.g3{background-color: 	#191a1a;position: relative;z-index: 99999;}
+.g3{background-color: 	#191a1a;position: relative;z-index: 999;}
 .g1 .img img{width: 80%;}
      .text-block{text-align: center; position: relative;width:100%; height:70vw;overflow: hidden;margin: 0;}
       .text-block .block4{ position:relative;font-size:46px;color: rgb(246, 246, 246); text-align: center;}
